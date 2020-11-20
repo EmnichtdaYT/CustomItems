@@ -1,0 +1,11 @@
+main: de.emnichtda.customitems.CustomItemsMain
+name: CustomItems
+api-version: 1.14
+version: 1.0
+description: Special Items
+author: EmnichtdaYT
+website: emnichtdayt.lima-city.de
+
+commands:
+     customitem:
+          description: .
