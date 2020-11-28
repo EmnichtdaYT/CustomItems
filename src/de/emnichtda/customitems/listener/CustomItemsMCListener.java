@@ -1,7 +1,5 @@
 package de.emnichtda.customitems.listener;
 
-import org.bukkit.entity.ArmorStand;
-import org.bukkit.entity.EntityType;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.block.Action;
@@ -37,8 +35,6 @@ public class CustomItemsMCListener implements Listener{
 		if(e.getItem()==null) { //If player has no item in hand - leave
 			return;
 		}
-		
-		ArmorStand stand = (ArmorStand) e.getPlayer().getWorld().spawnEntity(e.getClickedBlock().getLocation(), EntityType.ARMOR_STAND);
 		
 		//TODO spawn item if item is spawnable
 	}
